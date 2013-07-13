@@ -29,7 +29,6 @@ CREATE TABLE `invtypestowrecks` (
 -- ----------------------------
 -- Records of invtypestowrecks
 -- ----------------------------
-INSERT INTO `invtypestowrecks` VALUES ('0', '26574', null);
 INSERT INTO `invtypestowrecks` VALUES ('582', '26506', 'Bantam');
 INSERT INTO `invtypestowrecks` VALUES ('583', '26506', 'Condor');
 INSERT INTO `invtypestowrecks` VALUES ('584', '26506', 'Griffin');
