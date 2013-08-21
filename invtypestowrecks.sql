@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : o shit
-Source Server Version : 50532
+Source Server         : local
+Source Server Version : 50611
 Source Host           : localhost:3306
-Source Database       : eve
+Source Database       : evemu
 
 Target Server Type    : MYSQL
-Target Server Version : 50532
+Target Server Version : 50611
 File Encoding         : 65001
 
-Date: 2013-08-07 12:24:19
+Date: 2013-08-21 01:11:32
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,7 +29,6 @@ CREATE TABLE `invtypestowrecks` (
 -- ----------------------------
 -- Records of invtypestowrecks
 -- ----------------------------
-INSERT INTO `invtypestowrecks` VALUES ('0', '0', null);
 INSERT INTO `invtypestowrecks` VALUES ('582', '26506', 'Bantam');
 INSERT INTO `invtypestowrecks` VALUES ('583', '26506', 'Condor');
 INSERT INTO `invtypestowrecks` VALUES ('584', '26506', 'Griffin');
@@ -510,6 +509,8 @@ INSERT INTO `invtypestowrecks` VALUES ('16165', '26562', 'Angel Cartel Personnel
 INSERT INTO `invtypestowrecks` VALUES ('16166', '26568', 'Blood Raider Personnel Transport');
 INSERT INTO `invtypestowrecks` VALUES ('16561', '26561', 'Angel Viper');
 INSERT INTO `invtypestowrecks` VALUES ('16562', '26561', 'Angel Webifier');
+INSERT INTO `invtypestowrecks` VALUES ('16563', '26567', 'Blood Wraith');
+INSERT INTO `invtypestowrecks` VALUES ('16564', '26567', 'Blood Disciple');
 INSERT INTO `invtypestowrecks` VALUES ('16874', '26561', 'Gistii Ambusher');
 INSERT INTO `invtypestowrecks` VALUES ('16875', '26562', 'Gistum Depredator');
 INSERT INTO `invtypestowrecks` VALUES ('16876', '26561', 'Gistii Fugitive');
@@ -568,23 +569,64 @@ INSERT INTO `invtypestowrecks` VALUES ('16928', '26568', 'Corpum Arch Priest');
 INSERT INTO `invtypestowrecks` VALUES ('16929', '26568', 'Corpum Arch Reaver');
 INSERT INTO `invtypestowrecks` VALUES ('16930', '26568', 'Corpum Arch Sage');
 INSERT INTO `invtypestowrecks` VALUES ('16931', '26568', 'Corpum Arch Templar');
+INSERT INTO `invtypestowrecks` VALUES ('16932', '26567', 'Corpii Diviner');
+INSERT INTO `invtypestowrecks` VALUES ('16933', '26567', 'Corpii Upholder');
 INSERT INTO `invtypestowrecks` VALUES ('16934', '26569', 'Corpus Prophet');
+INSERT INTO `invtypestowrecks` VALUES ('16935', '26567', 'Corpii Collector');
+INSERT INTO `invtypestowrecks` VALUES ('16936', '26567', 'Corpii Follower');
+INSERT INTO `invtypestowrecks` VALUES ('16937', '26567', 'Corpii Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('16938', '26569', 'Corpus Oracle');
+INSERT INTO `invtypestowrecks` VALUES ('16939', '26567', 'Elder Corpii Herald');
+INSERT INTO `invtypestowrecks` VALUES ('16940', '26567', 'Corpii Reaver');
 INSERT INTO `invtypestowrecks` VALUES ('16941', '26569', 'Corpus Apostle');
+INSERT INTO `invtypestowrecks` VALUES ('16942', '26567', 'Elder Corpii Upholder');
+INSERT INTO `invtypestowrecks` VALUES ('16943', '26567', 'Elder Corpii Follower');
 INSERT INTO `invtypestowrecks` VALUES ('16944', '26568', 'Corpum Priest');
+INSERT INTO `invtypestowrecks` VALUES ('16945', '26567', 'Corpii Raider');
+INSERT INTO `invtypestowrecks` VALUES ('16946', '26567', 'Corpii Herald');
+INSERT INTO `invtypestowrecks` VALUES ('16947', '26567', 'Corpii Seeker');
 INSERT INTO `invtypestowrecks` VALUES ('16948', '26568', 'Corpum Revenant');
 INSERT INTO `invtypestowrecks` VALUES ('16949', '26568', 'Corpum Sage');
+INSERT INTO `invtypestowrecks` VALUES ('16950', '26567', 'Corpii Worshipper');
+INSERT INTO `invtypestowrecks` VALUES ('16951', '26567', 'Elder Corpii Worshiper');
 INSERT INTO `invtypestowrecks` VALUES ('16952', '26569', 'Corpus Archon');
+INSERT INTO `invtypestowrecks` VALUES ('16953', '26567', 'Corpii Engraver');
+INSERT INTO `invtypestowrecks` VALUES ('16954', '26567', 'Dark Corpii Reaver');
+INSERT INTO `invtypestowrecks` VALUES ('16955', '26567', 'Dark Corpii Follower');
 INSERT INTO `invtypestowrecks` VALUES ('16956', '26568', 'Dark Corpum Arch Engraver');
 INSERT INTO `invtypestowrecks` VALUES ('16957', '26568', 'Dark Corpum Arch Priest');
 INSERT INTO `invtypestowrecks` VALUES ('16958', '26568', 'Dark Corpum Dark Priest');
 INSERT INTO `invtypestowrecks` VALUES ('16959', '26568', 'Dark Corpum Arch Reaver');
+INSERT INTO `invtypestowrecks` VALUES ('16960', '26568', 'Dark Corpum Arch Sage');
+INSERT INTO `invtypestowrecks` VALUES ('16961', '26568', 'Dark Corpum Shadow Sage');
+INSERT INTO `invtypestowrecks` VALUES ('16962', '26568', 'Dark Corpum Arch Templar');
+INSERT INTO `invtypestowrecks` VALUES ('16963', '26567', 'Dark Corpii Diviner');
+INSERT INTO `invtypestowrecks` VALUES ('16964', '26567', 'Dark Corpii Upholder');
 INSERT INTO `invtypestowrecks` VALUES ('16965', '26569', 'Dark Corpus Prophet');
+INSERT INTO `invtypestowrecks` VALUES ('16966', '26567', 'Dark Corpii Collector');
 INSERT INTO `invtypestowrecks` VALUES ('16967', '26569', 'Dark Corpus Oracle');
 INSERT INTO `invtypestowrecks` VALUES ('16968', '26569', 'Dark Corpus Archbishop');
 INSERT INTO `invtypestowrecks` VALUES ('16969', '26569', 'Dark Corpus Apostle');
 INSERT INTO `invtypestowrecks` VALUES ('16970', '26569', 'Dark Corpus Harbinger');
+INSERT INTO `invtypestowrecks` VALUES ('16971', '26569', 'Dark Corpum Priest');
+INSERT INTO `invtypestowrecks` VALUES ('16972', '26567', 'Dark Corpii Raider');
+INSERT INTO `invtypestowrecks` VALUES ('16973', '26567', 'Dark Corpii Herald');
+INSERT INTO `invtypestowrecks` VALUES ('16974', '26567', 'Dark Corpii Seeker');
+INSERT INTO `invtypestowrecks` VALUES ('16975', '26568', 'Dark Corpum Revenant');
+INSERT INTO `invtypestowrecks` VALUES ('16976', '26568', 'Dark Corpum Sage');
+INSERT INTO `invtypestowrecks` VALUES ('16977', '26567', 'Dark Corpii Worshipper');
 INSERT INTO `invtypestowrecks` VALUES ('16978', '26569', 'Dark Corpus Archon');
+INSERT INTO `invtypestowrecks` VALUES ('16979', '26567', 'Dark Corpii Engraver');
+INSERT INTO `invtypestowrecks` VALUES ('16984', '26575', 'Pith Dismantler');
+INSERT INTO `invtypestowrecks` VALUES ('16988', '26575', 'Pith Obliterator');
+INSERT INTO `invtypestowrecks` VALUES ('16992', '26575', 'Pith Eradicator');
+INSERT INTO `invtypestowrecks` VALUES ('17005', '26575', 'Pith Extinguisher');
+INSERT INTO `invtypestowrecks` VALUES ('17010', '26575', 'Dread Pith Dismantler');
+INSERT INTO `invtypestowrecks` VALUES ('17011', '26575', 'Dread Pith Eliminator');
+INSERT INTO `invtypestowrecks` VALUES ('17014', '26575', 'Dread Pith Obliterator');
+INSERT INTO `invtypestowrecks` VALUES ('17018', '26575', 'Dread Pith Eradicator');
+INSERT INTO `invtypestowrecks` VALUES ('17030', '26575', 'Dread Pith Extinguisher');
+INSERT INTO `invtypestowrecks` VALUES ('17031', '26575', 'Dread Pith Exterminator');
 INSERT INTO `invtypestowrecks` VALUES ('17360', '26550', 'Immovable Enigma');
 INSERT INTO `invtypestowrecks` VALUES ('17619', '26506', 'Caldari Navy Hookbill');
 INSERT INTO `invtypestowrecks` VALUES ('17634', '26500', 'Caracal Navy Issue');
@@ -855,13 +897,20 @@ INSERT INTO `invtypestowrecks` VALUES ('23841', '26562', 'Arch Angel Defeater');
 INSERT INTO `invtypestowrecks` VALUES ('23940', '26573', 'Vagrant Nihilist');
 INSERT INTO `invtypestowrecks` VALUES ('23941', '26573', 'Vagrant Anarchist');
 INSERT INTO `invtypestowrecks` VALUES ('23969', '26561', 'Gistior Shatterer');
+INSERT INTO `invtypestowrecks` VALUES ('23970', '26567', 'Corpior Visionary');
 INSERT INTO `invtypestowrecks` VALUES ('23974', '26561', 'Gistior Defacer');
 INSERT INTO `invtypestowrecks` VALUES ('23975', '26561', 'Gistior Haunter');
 INSERT INTO `invtypestowrecks` VALUES ('23976', '26561', 'Gistior Defiler');
 INSERT INTO `invtypestowrecks` VALUES ('23977', '26561', 'Gistior Seizer');
 INSERT INTO `invtypestowrecks` VALUES ('23978', '26561', 'Gistior Trasher');
+INSERT INTO `invtypestowrecks` VALUES ('23979', '26567', 'Corpior Converter');
+INSERT INTO `invtypestowrecks` VALUES ('23980', '26567', 'Corpior Templar');
+INSERT INTO `invtypestowrecks` VALUES ('23981', '26567', 'Corpior Devoter');
+INSERT INTO `invtypestowrecks` VALUES ('23982', '26567', 'Corpior Friar');
+INSERT INTO `invtypestowrecks` VALUES ('23983', '26567', 'Corpior Cleric');
 INSERT INTO `invtypestowrecks` VALUES ('23999', '26562', 'Gistatis Legionnaire');
 INSERT INTO `invtypestowrecks` VALUES ('24000', '26568', 'Corpatis Bishop');
+INSERT INTO `invtypestowrecks` VALUES ('24001', '26574', 'Pithatis Executor');
 INSERT INTO `invtypestowrecks` VALUES ('24004', '26562', 'Gistatis Primus');
 INSERT INTO `invtypestowrecks` VALUES ('24005', '26562', 'Gistatis Tribuni');
 INSERT INTO `invtypestowrecks` VALUES ('24006', '26562', 'Gistatis Praefectus');
@@ -872,12 +921,35 @@ INSERT INTO `invtypestowrecks` VALUES ('24010', '26568', 'Corpatis Shade');
 INSERT INTO `invtypestowrecks` VALUES ('24011', '26568', 'Corpatis Fanatic');
 INSERT INTO `invtypestowrecks` VALUES ('24012', '26568', 'Corpatis Phantom');
 INSERT INTO `invtypestowrecks` VALUES ('24013', '26568', 'Corpatis Exorcist');
+INSERT INTO `invtypestowrecks` VALUES ('24014', '26574', 'Pithatis Enforcer');
+INSERT INTO `invtypestowrecks` VALUES ('24015', '26574', 'Pithatis Assaulter');
+INSERT INTO `invtypestowrecks` VALUES ('24016', '26574', 'Pithatis Assassin');
+INSERT INTO `invtypestowrecks` VALUES ('24017', '26574', 'Pithatis Death Dealer');
+INSERT INTO `invtypestowrecks` VALUES ('24018', '26574', 'Pithatis Revolter');
 INSERT INTO `invtypestowrecks` VALUES ('24033', '26561', 'Arch Gistii Ruffian');
 INSERT INTO `invtypestowrecks` VALUES ('24034', '26561', 'Arch Gistii Nomad');
 INSERT INTO `invtypestowrecks` VALUES ('24035', '26561', 'Arch Gistii Ambusher');
 INSERT INTO `invtypestowrecks` VALUES ('24036', '26561', 'Arch Gistii Raider');
 INSERT INTO `invtypestowrecks` VALUES ('24037', '26561', 'Arch Gistii Hunter');
 INSERT INTO `invtypestowrecks` VALUES ('24038', '26561', 'Arch Gistii Impaler');
+INSERT INTO `invtypestowrecks` VALUES ('24039', '26567', 'Elder Corpii Seeker');
+INSERT INTO `invtypestowrecks` VALUES ('24040', '26567', 'Elder Corpii Collector');
+INSERT INTO `invtypestowrecks` VALUES ('24041', '26567', 'Elder Corpii Raider');
+INSERT INTO `invtypestowrecks` VALUES ('24042', '26567', 'Elder Corpii Diviner');
+INSERT INTO `invtypestowrecks` VALUES ('24043', '26567', 'Elder Corpii Reaver');
+INSERT INTO `invtypestowrecks` VALUES ('24044', '26567', 'Elder Corpii Engraver');
+INSERT INTO `invtypestowrecks` VALUES ('24099', '26568', 'Corpum Shadow Sage');
+INSERT INTO `invtypestowrecks` VALUES ('24100', '26568', 'Corpum Dark Priest');
+INSERT INTO `invtypestowrecks` VALUES ('24101', '26568', 'Elder Corpum Arch Reaver');
+INSERT INTO `invtypestowrecks` VALUES ('24102', '26568', 'Elder Corpum Arch Engraver');
+INSERT INTO `invtypestowrecks` VALUES ('24103', '26568', 'Elder Corpum Arch Templar');
+INSERT INTO `invtypestowrecks` VALUES ('24104', '26568', 'Elder Corpum Revenant');
+INSERT INTO `invtypestowrecks` VALUES ('24105', '26568', 'Elder Corpum Sage');
+INSERT INTO `invtypestowrecks` VALUES ('24106', '26568', 'Elder Corpum Priest');
+INSERT INTO `invtypestowrecks` VALUES ('24107', '26568', 'Elder Corpum Arch Sage');
+INSERT INTO `invtypestowrecks` VALUES ('24108', '26568', 'Elder Corpum Arch Priest');
+INSERT INTO `invtypestowrecks` VALUES ('24109', '26568', 'Elder Corpum Shadow Sage');
+INSERT INTO `invtypestowrecks` VALUES ('24110', '26568', 'Elder Corpum Dark Priest');
 INSERT INTO `invtypestowrecks` VALUES ('24111', '26562', 'Gistum Phalanx');
 INSERT INTO `invtypestowrecks` VALUES ('24112', '26562', 'Gistum Centurion');
 INSERT INTO `invtypestowrecks` VALUES ('24113', '26562', 'Arch Gistum Depredator');
@@ -910,6 +982,16 @@ INSERT INTO `invtypestowrecks` VALUES ('24141', '26569', 'Dark Corpus Monsignor'
 INSERT INTO `invtypestowrecks` VALUES ('24142', '26569', 'Dark Corpus Cardinal');
 INSERT INTO `invtypestowrecks` VALUES ('24143', '26569', 'Dark Corpus Patriarch');
 INSERT INTO `invtypestowrecks` VALUES ('24144', '26569', 'Dark Corpus Pope');
+INSERT INTO `invtypestowrecks` VALUES ('24145', '26575', 'Pith Eliminator');
+INSERT INTO `invtypestowrecks` VALUES ('24146', '26575', 'Pith Exterminator');
+INSERT INTO `invtypestowrecks` VALUES ('24147', '26575', 'Pith Destroyer');
+INSERT INTO `invtypestowrecks` VALUES ('24148', '26575', 'Pith Conquistador');
+INSERT INTO `invtypestowrecks` VALUES ('24149', '26575', 'Pith Massacrer');
+INSERT INTO `invtypestowrecks` VALUES ('24150', '26575', 'Pith Usurper');
+INSERT INTO `invtypestowrecks` VALUES ('24151', '26575', 'Dread Pith Destroyer');
+INSERT INTO `invtypestowrecks` VALUES ('24152', '26575', 'Dread Pith Conquistador');
+INSERT INTO `invtypestowrecks` VALUES ('24153', '26575', 'Dread Pith Massacrer');
+INSERT INTO `invtypestowrecks` VALUES ('24154', '26575', 'Dread Pith Usurper');
 INSERT INTO `invtypestowrecks` VALUES ('24175', '26562', 'Gistatis Domination Legionnaire');
 INSERT INTO `invtypestowrecks` VALUES ('24176', '26562', 'Gistatis Domination Primus');
 INSERT INTO `invtypestowrecks` VALUES ('24177', '26562', 'Gistatis Domination Tribuni');
@@ -922,6 +1004,18 @@ INSERT INTO `invtypestowrecks` VALUES ('24183', '26568', 'Dark Corpatis Shade');
 INSERT INTO `invtypestowrecks` VALUES ('24184', '26568', 'Dark Corpatis Fanatic');
 INSERT INTO `invtypestowrecks` VALUES ('24185', '26568', 'Dark Corpatis Phantom');
 INSERT INTO `invtypestowrecks` VALUES ('24186', '26568', 'Dark Corpatis Exorcist');
+INSERT INTO `invtypestowrecks` VALUES ('24187', '26574', 'Dread Pithatis Executor');
+INSERT INTO `invtypestowrecks` VALUES ('24188', '26574', 'Dread Pithatis Enforcer');
+INSERT INTO `invtypestowrecks` VALUES ('24189', '26574', 'Dread Pithatis Assaulter');
+INSERT INTO `invtypestowrecks` VALUES ('24190', '26574', 'Dread Pithatis Assassin');
+INSERT INTO `invtypestowrecks` VALUES ('24191', '26574', 'Dread Pithatis Death Dealer');
+INSERT INTO `invtypestowrecks` VALUES ('24192', '26574', 'Dread Pithatis Revolter');
+INSERT INTO `invtypestowrecks` VALUES ('24223', '26567', 'Dark Corpior Visioner');
+INSERT INTO `invtypestowrecks` VALUES ('24224', '26567', 'Dark Corpior Converter');
+INSERT INTO `invtypestowrecks` VALUES ('24225', '26567', 'Dark Corpior Templar');
+INSERT INTO `invtypestowrecks` VALUES ('24226', '26567', 'Dark Corpior Devoter');
+INSERT INTO `invtypestowrecks` VALUES ('24227', '26567', 'Dark Corpior Friar');
+INSERT INTO `invtypestowrecks` VALUES ('24228', '26567', 'Dark Corpior Cleric');
 INSERT INTO `invtypestowrecks` VALUES ('24229', '26561', 'Gistior Domination Shatterer');
 INSERT INTO `invtypestowrecks` VALUES ('24230', '26561', 'Gistior Domination Defacer');
 INSERT INTO `invtypestowrecks` VALUES ('24231', '26561', 'Gistior Domination Haunter');
@@ -987,6 +1081,8 @@ INSERT INTO `invtypestowrecks` VALUES ('25806', '26573', 'TEST ATTACKER');
 INSERT INTO `invtypestowrecks` VALUES ('25816', '26563', 'vlgergh');
 INSERT INTO `invtypestowrecks` VALUES ('25822', '26563', 'Gist_Defender Battleship');
 INSERT INTO `invtypestowrecks` VALUES ('25823', '26561', 'Gistii_Defender_Frigate');
+INSERT INTO `invtypestowrecks` VALUES ('25824', '26575', 'Pith Defender');
+INSERT INTO `invtypestowrecks` VALUES ('26712', '26568', 'Blood Phantom - Ectoplasm');
 INSERT INTO `invtypestowrecks` VALUES ('26752', '26562', 'Angel Transport');
 INSERT INTO `invtypestowrecks` VALUES ('26754', '26569', 'Corpus Messiah');
 INSERT INTO `invtypestowrecks` VALUES ('26816', '26563', 'vlgergh');
@@ -997,6 +1093,7 @@ INSERT INTO `invtypestowrecks` VALUES ('26874', '26528', 'Corvette Prototype Gal
 INSERT INTO `invtypestowrecks` VALUES ('26876', '26506', 'Corvette Prototype Caldari');
 INSERT INTO `invtypestowrecks` VALUES ('26886', '27286', 'TEST Missiles NPC');
 INSERT INTO `invtypestowrecks` VALUES ('26887', '27286', 'TEST Turrets NPC');
+INSERT INTO `invtypestowrecks` VALUES ('26971', '26568', 'Gurista Guerilla Special Aquirement Division Captain');
 INSERT INTO `invtypestowrecks` VALUES ('27002', '27286', 'TEST Moussa Dread Guristas Assassin');
 INSERT INTO `invtypestowrecks` VALUES ('27003', '27286', 'TEST RANGE Dire Pithi Wrecker');
 INSERT INTO `invtypestowrecks` VALUES ('27005', '27286', 'TEST UPDATE Ammatar Navy Sergeant');
@@ -1024,6 +1121,7 @@ INSERT INTO `invtypestowrecks` VALUES ('29336', '26544', 'Scythe Fleet Issue');
 INSERT INTO `invtypestowrecks` VALUES ('29337', '26478', 'Augoror Navy Issue');
 INSERT INTO `invtypestowrecks` VALUES ('29340', '26500', 'Osprey Navy Issue');
 INSERT INTO `invtypestowrecks` VALUES ('29344', '26522', 'Exequror Navy Issue');
+INSERT INTO `invtypestowrecks` VALUES ('30362', '26567', 'TEX tutorial resistance NPC placeholder');
 INSERT INTO `invtypestowrecks` VALUES ('30743', '26562', 'Society of Conscious Thought Cruiser');
 INSERT INTO `invtypestowrecks` VALUES ('30842', '26533', 'Interbus Shuttle');
 INSERT INTO `invtypestowrecks` VALUES ('32298', '26563', 'Karkoti Rend');
@@ -1033,6 +1131,7 @@ INSERT INTO `invtypestowrecks` VALUES ('32309', '26499', 'Scorpion Navy Issue');
 INSERT INTO `invtypestowrecks` VALUES ('32311', '26543', 'Typhoon Fleet Issue');
 INSERT INTO `invtypestowrecks` VALUES ('32380', '26972', 'Roden Police Major');
 INSERT INTO `invtypestowrecks` VALUES ('32381', '26972', 'Roden Police Sergeant');
+INSERT INTO `invtypestowrecks` VALUES ('32385', '26575', 'Guristas Battleship Vessel');
 INSERT INTO `invtypestowrecks` VALUES ('32400', '26561', 'Angel Frigate Vessel');
 INSERT INTO `invtypestowrecks` VALUES ('32401', '26562', 'Angel Cruiser Vessel');
 INSERT INTO `invtypestowrecks` VALUES ('32402', '26565', 'Angel Battleship Vessel');
