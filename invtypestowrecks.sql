@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50611
 File Encoding         : 65001
 
-Date: 2013-08-21 01:11:32
+Date: 2013-08-24 03:42:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -141,6 +141,10 @@ INSERT INTO `invtypestowrecks` VALUES ('2384', '26543', 'Guristas Imputor');
 INSERT INTO `invtypestowrecks` VALUES ('2385', '26543', 'Guristas Despoiler');
 INSERT INTO `invtypestowrecks` VALUES ('2386', '26543', 'Guristas Plunderer');
 INSERT INTO `invtypestowrecks` VALUES ('2387', '26574', 'Guristas Silencer');
+INSERT INTO `invtypestowrecks` VALUES ('2834', '26524', 'Utu');
+INSERT INTO `invtypestowrecks` VALUES ('2836', '26522', 'Adrestia');
+INSERT INTO `invtypestowrecks` VALUES ('3516', '26480', 'Malice');
+INSERT INTO `invtypestowrecks` VALUES ('3518', '26478', 'Vangel');
 INSERT INTO `invtypestowrecks` VALUES ('3532', '26484', 'Echelon');
 INSERT INTO `invtypestowrecks` VALUES ('3751', '26557', 'SOCT 1');
 INSERT INTO `invtypestowrecks` VALUES ('3753', '26557', 'SOCT 2');
@@ -337,6 +341,18 @@ INSERT INTO `invtypestowrecks` VALUES ('11137', '26972', 'Imperial Navy Fleet Ma
 INSERT INTO `invtypestowrecks` VALUES ('11138', '26972', 'Caldari Navy Fleet Admiral');
 INSERT INTO `invtypestowrecks` VALUES ('11139', '26972', 'Federation Navy Fleet General');
 INSERT INTO `invtypestowrecks` VALUES ('11140', '26972', 'Republic Fleet High Commander');
+INSERT INTO `invtypestowrecks` VALUES ('11180', '26546', 'Rapier Frigate');
+INSERT INTO `invtypestowrecks` VALUES ('11365', '26480', 'Vengeance');
+INSERT INTO `invtypestowrecks` VALUES ('11371', '26546', 'Wolf');
+INSERT INTO `invtypestowrecks` VALUES ('11373', '26546', 'Blade');
+INSERT INTO `invtypestowrecks` VALUES ('11375', '26524', 'Erinye');
+INSERT INTO `invtypestowrecks` VALUES ('11379', '26502', 'Hawk');
+INSERT INTO `invtypestowrecks` VALUES ('11381', '26502', 'Harpy');
+INSERT INTO `invtypestowrecks` VALUES ('11383', '26480', 'Gatherer');
+INSERT INTO `invtypestowrecks` VALUES ('11385', '26502', 'Sparrow');
+INSERT INTO `invtypestowrecks` VALUES ('11389', '26524', 'Kishar');
+INSERT INTO `invtypestowrecks` VALUES ('11393', '26480', 'Retribution');
+INSERT INTO `invtypestowrecks` VALUES ('11400', '26546', 'Jaguar');
 INSERT INTO `invtypestowrecks` VALUES ('11515', '26972', 'Amarr Surveillance General Major');
 INSERT INTO `invtypestowrecks` VALUES ('11516', '26972', 'Sarum Surveillance General Major');
 INSERT INTO `invtypestowrecks` VALUES ('11517', '26972', 'Ammatar Surveillance General Major');
@@ -392,12 +408,40 @@ INSERT INTO `invtypestowrecks` VALUES ('11936', '26477', 'Apocalypse Imperial Is
 INSERT INTO `invtypestowrecks` VALUES ('11938', '26477', 'Armageddon Imperial Issue');
 INSERT INTO `invtypestowrecks` VALUES ('11940', '26480', 'Gold Magnate');
 INSERT INTO `invtypestowrecks` VALUES ('11942', '26480', 'Silver Magnate');
+INSERT INTO `invtypestowrecks` VALUES ('11973', '26500', 'Nocturne');
+INSERT INTO `invtypestowrecks` VALUES ('11980', '26544', 'Drifter');
+INSERT INTO `invtypestowrecks` VALUES ('11982', '26478', 'Sanctity');
+INSERT INTO `invtypestowrecks` VALUES ('11991', '26522', 'Clotho');
+INSERT INTO `invtypestowrecks` VALUES ('11993', '26500', 'Cerberus');
+INSERT INTO `invtypestowrecks` VALUES ('11997', '26544', 'Glaive');
+INSERT INTO `invtypestowrecks` VALUES ('11999', '26544', 'Vagabond');
+INSERT INTO `invtypestowrecks` VALUES ('12003', '26478', 'Zealot');
+INSERT INTO `invtypestowrecks` VALUES ('12005', '26522', 'Ishtar');
+INSERT INTO `invtypestowrecks` VALUES ('12007', '26522', 'Atropos');
+INSERT INTO `invtypestowrecks` VALUES ('12009', '26500', 'Obsidian');
+INSERT INTO `invtypestowrecks` VALUES ('12011', '26500', 'Eagle');
+INSERT INTO `invtypestowrecks` VALUES ('12015', '26544', 'Muninn');
+INSERT INTO `invtypestowrecks` VALUES ('12019', '26478', 'Sacrilege');
+INSERT INTO `invtypestowrecks` VALUES ('12023', '26522', 'Deimos');
+INSERT INTO `invtypestowrecks` VALUES ('12030', '26502', 'Manticore OLD');
+INSERT INTO `invtypestowrecks` VALUES ('12036', '26546', 'Dagger');
+INSERT INTO `invtypestowrecks` VALUES ('12040', '26480', 'Purifier OLD');
+INSERT INTO `invtypestowrecks` VALUES ('12042', '26524', 'Ishkur');
+INSERT INTO `invtypestowrecks` VALUES ('12044', '26524', 'Enyo');
 INSERT INTO `invtypestowrecks` VALUES ('12245', '27286', 'Angel Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('12246', '27286', 'Blood Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('12247', '27286', 'Guristas Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('12248', '27286', 'Sansha\'s Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('12249', '27286', 'Serpentis Fugitive');
 INSERT INTO `invtypestowrecks` VALUES ('12403', '26528', 'Atron much HP');
+INSERT INTO `invtypestowrecks` VALUES ('12729', '26503', 'Crane');
+INSERT INTO `invtypestowrecks` VALUES ('12731', '26503', 'Bustard');
+INSERT INTO `invtypestowrecks` VALUES ('12733', '26481', 'Prorator');
+INSERT INTO `invtypestowrecks` VALUES ('12735', '26547', 'Prowler');
+INSERT INTO `invtypestowrecks` VALUES ('12743', '26525', 'Viator');
+INSERT INTO `invtypestowrecks` VALUES ('12745', '26525', 'Occator');
+INSERT INTO `invtypestowrecks` VALUES ('12747', '26547', 'Mastodon');
+INSERT INTO `invtypestowrecks` VALUES ('12753', '26481', 'Impel');
 INSERT INTO `invtypestowrecks` VALUES ('13032', '26561', 'Arch Angel Rogue');
 INSERT INTO `invtypestowrecks` VALUES ('13033', '26561', 'Arch Angel Thug');
 INSERT INTO `invtypestowrecks` VALUES ('13035', '26561', 'Arch Angel Hijacker');
@@ -664,6 +708,7 @@ INSERT INTO `invtypestowrecks` VALUES ('17932', '26550', 'Dramiel');
 INSERT INTO `invtypestowrecks` VALUES ('19379', '27286', 'NEGATIVE LOOT TEST DOOD');
 INSERT INTO `invtypestowrecks` VALUES ('19380', '27286', 'POSTIVE LOOT TEST DOOD');
 INSERT INTO `invtypestowrecks` VALUES ('19770', '26550', 'Pimp Vigil');
+INSERT INTO `invtypestowrecks` VALUES ('20067', '26500', 'Regulator');
 INSERT INTO `invtypestowrecks` VALUES ('20357', '27286', 'TEST Guristas for COMSOMS LOOT');
 INSERT INTO `invtypestowrecks` VALUES ('20716', '27202', 'Vendor');
 INSERT INTO `invtypestowrecks` VALUES ('20717', '27202', 'Bursar');
@@ -710,6 +755,10 @@ INSERT INTO `invtypestowrecks` VALUES ('22027', '26563', 'Degenerate Ferrier');
 INSERT INTO `invtypestowrecks` VALUES ('22028', '26563', 'Degenerate Loader');
 INSERT INTO `invtypestowrecks` VALUES ('22029', '26575', 'Bandit Harvester');
 INSERT INTO `invtypestowrecks` VALUES ('22053', '27286', 'Automated Centii Keyholder');
+INSERT INTO `invtypestowrecks` VALUES ('22426', '26477', 'Elite Apocalypse Khanid');
+INSERT INTO `invtypestowrecks` VALUES ('22432', '26521', 'Elite Megathron Duvolle');
+INSERT INTO `invtypestowrecks` VALUES ('22434', '26499', 'Elite Raven');
+INSERT INTO `invtypestowrecks` VALUES ('22438', '26543', 'Elite Tempest Brutor');
 INSERT INTO `invtypestowrecks` VALUES ('22579', '26550', 'Corvette Prototype Minmatar');
 INSERT INTO `invtypestowrecks` VALUES ('22626', '27286', 'NewFrigateRank1Test');
 INSERT INTO `invtypestowrecks` VALUES ('22812', '26561', 'Angel Shatterer');
@@ -1076,6 +1125,7 @@ INSERT INTO `invtypestowrecks` VALUES ('25226', '27286', 'Megathron 75ms 1500m')
 INSERT INTO `invtypestowrecks` VALUES ('25227', '27286', 'Thorax 125ms 750m');
 INSERT INTO `invtypestowrecks` VALUES ('25228', '27286', 'Catalyst 175ms 500m');
 INSERT INTO `invtypestowrecks` VALUES ('25229', '27286', 'Tristan 250ms 250m');
+INSERT INTO `invtypestowrecks` VALUES ('25426', '26502', 'Hawk 2');
 INSERT INTO `invtypestowrecks` VALUES ('25560', '26522', 'Opux Dragoon Yacht');
 INSERT INTO `invtypestowrecks` VALUES ('25806', '26573', 'TEST ATTACKER');
 INSERT INTO `invtypestowrecks` VALUES ('25816', '26563', 'vlgergh');
@@ -1124,6 +1174,8 @@ INSERT INTO `invtypestowrecks` VALUES ('29344', '26522', 'Exequror Navy Issue');
 INSERT INTO `invtypestowrecks` VALUES ('30362', '26567', 'TEX tutorial resistance NPC placeholder');
 INSERT INTO `invtypestowrecks` VALUES ('30743', '26562', 'Society of Conscious Thought Cruiser');
 INSERT INTO `invtypestowrecks` VALUES ('30842', '26533', 'Interbus Shuttle');
+INSERT INTO `invtypestowrecks` VALUES ('32207', '26546', 'Freki');
+INSERT INTO `invtypestowrecks` VALUES ('32209', '26544', 'Mimir');
 INSERT INTO `invtypestowrecks` VALUES ('32298', '26563', 'Karkoti Rend');
 INSERT INTO `invtypestowrecks` VALUES ('32305', '26477', 'Armageddon Navy Issue');
 INSERT INTO `invtypestowrecks` VALUES ('32307', '26521', 'Dominix Navy Issue');
